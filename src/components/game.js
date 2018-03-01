@@ -26,6 +26,7 @@ export default class Game extends React.Component {
             answer: Math.floor(Math.random() * 100),
             currentGuess: '',
             pastGuesses: [],
+            guessNumber: 0,
             feedback: 'Make Your Guess!'
         })
     }
